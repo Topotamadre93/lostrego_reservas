@@ -1,0 +1,15 @@
+{
+    "name": "lostrego-reservas",
+    "version": "1.0.0",
+    "description": "Plugin de reservas para el Lostrego Festival de Cine",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+        "lint:js": "wp-scripts lint-js",
+        "lint:css": "wp-scripts lint-style"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^26.0.0"
+    },
+    "license": "GPL-2.0-or-later"
+}

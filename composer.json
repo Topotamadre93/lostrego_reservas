@@ -1,0 +1,23 @@
+{
+    "name": "lostrego/lostrego-reservas",
+    "description": "Plugin de reservas para el Lostrego Festival de Cine",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "1.29.0",
+        "tecnickcom/tcpdf": "6.6.5"
+    },
+    "autoload": {
+        "classmap": [
+            "core/",
+            "includes/",
+            "admin/",
+            "public/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
